@@ -1,0 +1,47 @@
+{
+    "models": {
+        "PCRNN": {
+            "class": "PCRNN",
+            "params": {
+                "R": 0.015,
+                "lambda1": 0.02,
+                "lambda2": 0.02
+            }
+        },
+        "RNN": {
+            "class": "BaselineRNN",
+            "params": {}
+        },
+        "Linear": {
+            "class": "LinearRegression",
+            "params": {}
+        },
+        "Naive": {
+            "class": "NaiveForecaster",
+            "params": {}
+        }
+    },
+    "rnn_parameters": {
+        "input_dims": 4,
+        "hidden_dims": 16,
+        "num_rnn_layers": 1
+    },
+    "train_parameters": {
+        "epochs": 150,
+        "lags": 5,
+        "batch_size": 16,
+        "early_stopping_patience": 10,
+        "early_stopping_delta": 0,
+        "start_date": "2022-01",
+        "split_date": "2023-01"
+    },
+    "dataset_parameters": {
+        "train_plants": "PlantA",
+        "test_plants": [
+            "PlantB",
+            "PlantC"
+        ],
+        "n_train_samples": 1,
+        "n_test_samples": null
+    }
+}
