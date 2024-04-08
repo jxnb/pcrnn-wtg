@@ -5,7 +5,7 @@ PyTorch implementation of the paper:
 
 [
 J. Exenberger, M. Di Salvo, T. Hirsch, F. Wotawa, G. Schweiger. *Generalizable Temperature Nowcasting with Physics-Constrained RNNs for Predictive Maintenance of Wind Turbine Components*, ICLR Tackling Climate Change with Machine Learning Workshop 2024.
-]()
+](https://arxiv.org/abs/2404.04126)
 
 # Data
 
