@@ -9,7 +9,13 @@ J. Exenberger, M. Di Salvo, T. Hirsch, F. Wotawa, G. Schweiger. *Generalizable T
 
 # Data
 
-The dataset used in the paper is available upon request to the authors - please see the paper for contact information.
+### How to get the datasets used in the paper
+
+The dataset used in the paper is available upon request to the authors ~~- please see the paper for contact information~~.
+
+**NOTE:** The email address in the paper is no longer valid. Please submit your email through [this form](https://docs.google.com/forms/d/e/1FAIpQLSfvfGATCHLfIw_AkAHEr187kbG8hPqT8SptHtIcrBgSw7nA_A/viewform?usp=dialog). You will then receive the link and access code to download the datasets.
+
+### Use the model with your own datasets
 
 If you want to use the code with your own wind turbine data, make sure to prepare it the following way to make it directly work with the code:
 
